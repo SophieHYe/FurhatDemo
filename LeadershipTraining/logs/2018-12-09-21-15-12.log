@@ -1,0 +1,20 @@
+21:15:13 [Skill] INFO  Skill:135 - Connecting to broker 192.168.0.105:1932...
+21:16:44 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.nlu.common.No:en in 102 msec
+21:16:44 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.nlu.common.Yes:en in 1 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.TopicList:en in 2 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.ChosenTopic:en in 37 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.Topic:en in 7 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.ChooseTopic:en in 12 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.SubTopicList:en in 0 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.ChosenSubTopic:en in 1 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.SubTopic:en in 4 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.ChooseSubTopic:en in 1 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.WhatInstantFeedback:en in 3 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.WhyInstantFeedback:en in 1 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.FrequentInFeedback:en in 0 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.BehaviorIdentifiedFeedback:en in 1 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.FeelingFeedback:en in 0 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.QuestionFeedback:en in 1 msec
+21:16:53 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.PracticeFeedback:en in 1 msec
+21:16:54 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.RequestOptions:en in 1 msec
+21:18:26 [Broker Client] ERROR BrokerClient:150 - Unexpected disconnect from broker

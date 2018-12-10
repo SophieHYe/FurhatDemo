@@ -1,0 +1,10 @@
+16:20:16 [Skill] INFO  Skill:135 - Connecting to broker 192.168.0.105:1932...
+16:20:17 [Skill] ERROR Skill:140 - Could not connect to broker: 192.168.0.105:1932. Exiting...
+java.io.IOException: Connection to broker refused
+	at furhatos.event.BrokerClient.connect(BrokerClient.java:69)
+	at furhatos.event.EventSystem.connectToBroker(EventSystem.java:77)
+	at furhatos.skills.Skill.connectToBroker(Skill.java:138)
+	at furhatos.skills.Skill.main(Skill.java:87)
+	at furhatos.app.leadershiptraining.MainKt.main(main.kt:14)
+16:20:17 [ErrorLoggingThread] ERROR Skill:435 - No connection with broker, exiting...
+

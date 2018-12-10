@@ -1,0 +1,16 @@
+10:07:17 [Skill] INFO  Skill:135 - Connecting to broker 192.168.0.105:1932...
+10:09:26 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.nlu.common.No:en in 113 msec
+10:09:26 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.nlu.common.Yes:en in 1 msec
+10:09:35 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.TopicList:en in 4 msec
+10:09:35 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.ChosenTopic:en in 55 msec
+10:09:35 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.Topic:en in 17 msec
+10:09:35 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.ChooseTopic:en in 9 msec
+10:09:35 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.WhatInstantFeedback:en in 0 msec
+10:09:35 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.WhyInstantFeedback:en in 0 msec
+10:09:35 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.FrequentInFeedback:en in 0 msec
+10:09:35 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.BehaviorIdentifiedFeedback:en in 1 msec
+10:09:35 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.FeelingFeedback:en in 1 msec
+10:09:35 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.QuestionFeedback:en in 0 msec
+10:09:35 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.PracticeFeedback:en in 1 msec
+10:09:35 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.RequestOptions:en in 1 msec
+10:13:29 [Thread-1] INFO  LeadershiptrainingSkill:185 - Terminating skill...

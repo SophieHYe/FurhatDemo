@@ -1,0 +1,12 @@
+08:36:01 [Skill] INFO  Skill:135 - Connecting to broker 192.168.0.105:1932...
+08:39:15 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.nlu.common.No:en in 90 msec
+08:39:15 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.nlu.common.Yes:en in 2 msec
+08:39:25 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.TopicList:en in 3 msec
+08:39:25 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.ChosenTopic:en in 35 msec
+08:39:25 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.Topic:en in 13 msec
+08:39:25 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.ChooseTopic:en in 1 msec
+08:39:25 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.WhatInstantFeedback:en in 1 msec
+08:39:25 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.WhyInstantFeedback:en in 0 msec
+08:39:25 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.FrequentInFeedback:en in 0 msec
+08:39:25 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.RequestOptions:en in 1 msec
+08:42:37 [Broker Client] ERROR BrokerClient:150 - Unexpected disconnect from broker

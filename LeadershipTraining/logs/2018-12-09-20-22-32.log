@@ -1,0 +1,33 @@
+20:22:34 [Skill] INFO  Skill:135 - Connecting to broker 192.168.0.105:1932...
+20:25:13 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.nlu.common.No:en in 227 msec
+20:25:13 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.nlu.common.Yes:en in 1 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.TopicList:en in 3 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.ChosenTopic:en in 83 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.Topic:en in 11 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.ChooseTopic:en in 4 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.SubTopicList:en in 0 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.ChosenSubTopic:en in 0 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 63 - Initialized entity furhatos.app.leadershiptraining.nlu.SubTopic:en in 2 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.ChooseSubTopic:en in 6 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.WhatInstantFeedback:en in 1 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.WhyInstantFeedback:en in 5 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.FrequentInFeedback:en in 19 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.BehaviorIdentifiedFeedback:en in 1 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.FeelingFeedback:en in 0 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.QuestionFeedback:en in 21 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.PracticeFeedback:en in 0 msec
+20:25:22 [pool-2-thread-1] INFO  EntityInterpreter: 48 - Initialized intent furhatos.app.leadershiptraining.nlu.RequestOptions:en in 1 msec
+21:13:05 [Broker Client] ERROR BrokerClient:150 - Unexpected disconnect from broker
+21:13:05 [Thread-1] ERROR EventSystem:114 - Problem sending to broker
+java.net.SocketException: Protocol wrong type for socket (Write failed)
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:134)
+	at java.io.DataOutputStream.writeBytes(DataOutputStream.java:276)
+	at furhatos.event.BrokerClient.sendToServer(BrokerClient.java:204)
+	at furhatos.event.BrokerClient.sendTo(BrokerClient.java:167)
+	at furhatos.event.BrokerClient.send(BrokerClient.java:160)
+	at furhatos.event.EventSystem.distributeExternal(EventSystem.java:112)
+	at furhatos.event.EventSystem.distributeNextEvent(EventSystem.java:250)
+	at furhatos.event.EventSystem.runUntilStopped(EventSystem.java:224)
+	at java.lang.Thread.run(Thread.java:748)
